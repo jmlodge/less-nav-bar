@@ -54,5 +54,14 @@ nav ul li a {
   border-color: transparent #444444 transparent #888888;
   background: linear-gradient(top, #7a7a7a 0%, #6c6c6c 50%, #545454 51%, #6a6a6a 100%);
 }
+nav ul li a:hover {
+  background: linear-gradient(top, #545454 0%, #434343 50%, #333333 51%, #505050 100%);
+}
+nav ul li:first-child a {
+  border-left: none;
+}
+nav ul li:last-child a {
+  border-right: none;
+}
 
 /*# sourceMappingURL=styles.css.map */
